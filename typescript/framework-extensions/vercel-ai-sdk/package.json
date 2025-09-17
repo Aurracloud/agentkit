@@ -1,6 +1,6 @@
 {
   "name": "@aurracloud/agentkit-vercel-ai-sdk",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description": "Vercel AI SDK extension of CDP Agentkit",
   "repository": "https://github.com/aurracloud/agentkit",
   "author": "Coinbase Inc.",
@@ -39,13 +39,13 @@
     "ai-sdk"
   ],
   "dependencies": {
-    "zod": "^3.22.4"
+    "zod": "^3.25.76"
   },
   "devDependencies": {
-    "@aurracloud/agentkit": "workspace:*"
+    "@aurracloud/agentkit": "../../agentkit"
   },
   "peerDependencies": {
     "@aurracloud/agentkit": ">=0.1.0",
-    "ai": "^4.1.16"
+    "ai": "^5.0.26"
   }
 }

@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { AgentKit, Action } from "@coinbase/agentkit";
+import { AgentKit, Action } from "@aurracloud/agentkit";
 
 import { getVercelAITools } from "./getVercelAiTools";
 
@@ -12,8 +12,8 @@ const mockAction: Action = {
 };
 
 // Creating a mock for AgentKit
-jest.mock("@coinbase/agentkit", () => {
-  const originalModule = jest.requireActual("@coinbase/agentkit");
+jest.mock("@aurracloud/agentkit", () => {
+  const originalModule = jest.requireActual("@aurracloud/agentkit");
   return {
     ...originalModule,
     AgentKit: {

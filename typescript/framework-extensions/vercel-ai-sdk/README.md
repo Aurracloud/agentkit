@@ -7,19 +7,19 @@ This package is an extension used to easily plug [AgentKit](https://docs.cdp.coi
 For a single command to install all necessary dependencies, run:
 
 ```bash
-npm install @coinbase/agentkit-vercel-ai-sdk @coinbase/agentkit ai @ai-sdk/openai
+npm install @aurracloud/agentkit-vercel-ai-sdk @aurracloud/agentkit ai @ai-sdk/openai
 ```
 
 To break it down, this package is:
 
 ```bash
-npm install @coinbase/agentkit-vercel-ai-sdk
+npm install @aurracloud/agentkit-vercel-ai-sdk
 ```
 
 This package is used alongside AgentKit and AI SDK, so these will need to be installed as well.
 
 ```bash
-npm install @coinbase/agentkit ai
+npm install @aurracloud/agentkit ai
 ```
 
 Finally, install the model provider you want to use. For example, to use OpenAI, install the `@ai-sdk/openai` package. See [here](https://sdk.vercel.ai/docs/foundations/providers-and-models#ai-sdk-providers) for a list of supported model providers.
@@ -37,8 +37,8 @@ Here's a snippet of code that shows how to use the `getVercelAITools` function t
 ###### chatbot.ts
 
 ```typescript
-import { getVercelAITools } from "@coinbase/agentkit-vercel-ai-sdk";
-import { AgentKit } from "@coinbase/agentkit";
+import { getVercelAITools } from "@aurracloud/agentkit-vercel-ai-sdk";
+import { AgentKit } from "@aurracloud/agentkit";
 import { generateText } from "ai";
 import { openai } from "@ai-sdk/openai";
 

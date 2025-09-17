@@ -1,4 +1,4 @@
-# @coinbase/agentkit-vercel-ai-sdk
+# @aurracloud/agentkit-vercel-ai-sdk
 
 ## 0.1.0
 
